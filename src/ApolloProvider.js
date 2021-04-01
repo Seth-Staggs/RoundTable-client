@@ -7,7 +7,7 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import { setContext } from 'apollo-link-context';
 
 const httpLink = createHttpLink({
-  uri: 'https://git.heroku.com/shrouded-basin-13457.git'
+  uri: 'https://shrouded-basin-13457.herokuapp.com/'
 });
 
 const authLink = setContext(() => {
